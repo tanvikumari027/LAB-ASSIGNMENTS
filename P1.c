@@ -20,8 +20,9 @@ int main() {
     scanf("%d", &pe);
 
     totalMarks = math + eng + sci + hindi + pe;
-    percentage = (float)totalMarks / 5.0;
+    percentage = totalMarks / 5.0;
     
     printf("Total Marks = %d\n", totalMarks);
     printf("Percentage = %.2f\n", percentage);
 }
+
