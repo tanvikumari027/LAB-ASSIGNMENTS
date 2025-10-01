@@ -1,7 +1,7 @@
 //WAP that accepts the marks of 5 subjects and finds the sum and percentage marks obtained by the student
 #include <stdio.h>
 int main() {
-    int math, eng, sci, hindi, pe, totalMarks;
+    int math, eng, sci, hindi, sst, totalMarks;
     float percentage;
 
     printf("ENTER MARKS FOR MATHS: ");
@@ -16,13 +16,14 @@ int main() {
     printf("ENTER MARKS FOR HINDI: ");
     scanf("%d", &hindi);
 
-    printf("ENTER MARKS FOR P.E: ");
-    scanf("%d", &pe);
+    printf("ENTER MARKS FOR S.S.T.: ");
+    scanf("%d", &sst);
 
-    totalMarks = math + eng + sci + hindi + pe;
+    totalMarks = math + eng + sci + hindi + sst;
     percentage = totalMarks / 5.0;
     
-    printf("Total Marks = %d\n", totalMarks);
-    printf("Percentage = %.2f\n", percentage);
+    printf("Total Marks=  %d\n", totalMarks);
+    printf("Percentage=  %.2f\n", percentage);
 }
+
 
