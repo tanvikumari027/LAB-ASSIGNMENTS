@@ -1,27 +1,35 @@
 #include <stdio.h>
 int main() {
-    int a, b, c;
+    
+    int firstNum, secondNum, thirdNum;
+    
     printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
-    if (a > b){
-        if (a > c)
+    scanf("%d %d %d", &firstNum, &secondNum, &thirdNum);
+    
+    if (firstNum > secondNum){
+        if (firstNum > thirdNum)
         {
-            printf("The greatest number is: %d\n", a);
+            printf("The greatest number is: %d\n", firstNum);
         }
     }
-    else if (b > a) {
-        if (b > c)
+        
+    else if (secondNum > firstNum) {
+        if (secondNum > thirdNum)
         {
-            printf("The greatest number is: %d\n", b);
+            printf("The greatest number is: %d\n", secondNum);
         }    
     }
-    else if (c > a){
-        if (c > b)
+        
+    else if (thirdNum > firstNum){
+        if (thirdNum > secondNum)
         {
-            printf("The greatest number is: %d\n", c);
+            printf("The greatest number is: %d\n", thirdNum);
         }       
     }
+        
     else{
         printf("All are equal");
     }
+    
 }
+
