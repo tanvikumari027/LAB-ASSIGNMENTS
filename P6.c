@@ -3,6 +3,7 @@
 int main(){
 
     int firstNum,secondNum;
+    
     printf("Enter the first num= ");
     scanf("%d",&firstNum);
 
@@ -19,4 +20,5 @@ int main(){
         printf("BOTH NUMBERS ARE NOT EQUAL");
     }
     
+
 }
