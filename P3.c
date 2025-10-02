@@ -2,7 +2,9 @@
 #include<stdio.h>
 #define _USE_MATH_DEFINES
 #include<math.h>
+
 int main(){
+    
     float radius,area,circumference;
 
     printf("Enter the radius= ");
@@ -15,5 +17,6 @@ int main(){
     printf("The area of circle is= %.2f\n",area);
     
     return 0;
+
 
 }
