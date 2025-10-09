@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main(){
     
-    int a;
+    int lastNum;
     float sum;
     
     printf("Enter the number");
-    scanf("%d",&a);
+    scanf("%d" , &lastNum);
     
-    sum=(a*(a+1))/2.0;
+    sum=( lastNum * ( lastNum + 1 ) ) / 2.0;
     
-    printf("sum= %.2f",sum);
+    printf("sum= %.2f", sum );
 
 
 }
+
