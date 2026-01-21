@@ -17,12 +17,12 @@ int main()
     else
     {
         while (i<=number)
-    {
-        factorial=factorial*i;
-        i++;  
-    }
+        {
+          factorial=factorial*i;
+          i++;  
+        }
     
-    printf("factorial of %d is= %llu",number,factorial);
+        printf("factorial of %d is= %llu",number,factorial);
     }
     
         
